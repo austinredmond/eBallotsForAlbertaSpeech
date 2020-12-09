@@ -33,9 +33,6 @@ function updateForm() {
   var speaker3List = form.getItemById("Fill in the Drop-Down List ID for Speaker 3").asListItem();
   var speaker4List = form.getItemById("Fill in the Drop-Down List ID for Speaker 4").asListItem();
   var speaker5List = form.getItemById("Fill in the Drop-Down List ID for Speaker 5").asListItem();
-  var speaker6List = form.getItemById("Fill in the Drop-Down List ID for Speaker 6").asListItem();
-  var speaker7List = form.getItemById("Fill in the Drop-Down List ID for Speaker 7").asListItem();
-  var speaker8List = form.getItemById("Fill in the Drop-Down List ID for Speaker 8").asListItem();
   
   // Changes do not need to be made beyond this point.
   
@@ -75,8 +72,5 @@ function updateForm() {
   speaker3List.setChoiceValues(speakerNames);
   speaker4List.setChoiceValues(speakerNames);
   speaker5List.setChoiceValues(speakerNames);
-  speaker6List.setChoiceValues(speakerNames);
-  speaker7List.setChoiceValues(speakerNames);
-  speaker8List.setChoiceValues(speakerNames);
 
 )
